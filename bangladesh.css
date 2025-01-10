@@ -41,10 +41,11 @@ cursor: pointer;
 }
 .bangladesh{
     height: 520.60px;
-    width: 1260px;
+    width: 1250px;
     border-radius: 24px;
 
 background: rgb(198, 228, 214);
+margin: 5px;
 }
 .sub-title-text-content{
 color: rgba(14, 14, 14, 0.5);
@@ -96,6 +97,7 @@ order: 1;
 flex-grow: 0;
 margin: 24px 0px;
 border: none;
+cursor: pointer;
 }
 .common-button-text{
 color: rgb(255, 255, 255);
@@ -105,4 +107,21 @@ font-weight: 600;
 line-height: 18px;
 letter-spacing: 0%;
 text-align: left;
+}
+/* next sextion */
+/* pillar of bangladesh
+ */
+.pillar-of-bangladesh{
+    margin: 60px 5px;
+
+}
+.pillar-of-bangladesh-headiing{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 5px;
 }
