@@ -275,4 +275,77 @@ transition: transform 0.3s ease;
     transform: scale(1.1);
     border: 1px dotted black;
 }
-.
+.donate-heading{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.donate-text{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-card-box{
+display: flex;
+justify-content: space-around;
+}
+.donate-card{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    width:220px;
+    height: 100px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding-top: 30px;
+transition: transform 0.3s ease;
+}
+input[type="text"]{
+    width:1000px;
+    height: 55px;
+    border-radius: 2px;
+    box-sizing: border-box;
+ border: 1px solid rgba(14, 14, 14, 0.15);
+ background: rgb(255, 255, 255);
+ margin: 28px;
+   
+}
+input::placeholder{
+ color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-text-button > button{
+    width: 140px;
+}
+.donate-text-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-card:hover{
+    background: rgb(198, 228, 214);
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+
