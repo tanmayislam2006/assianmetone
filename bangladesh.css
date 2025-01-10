@@ -147,7 +147,7 @@ font-weight: 700;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-padding: 5px;
+padding-left: 15px;
 }
 .card-box-text{
 color: rgba(14, 14, 14, 0.7);
@@ -157,8 +157,8 @@ font-weight: 400;
 line-height: 18px;
 letter-spacing: 0%;
 text-align: left;
-padding: 5px;
-width:;
+/* padding: 15px; */
+padding-left: 15px;
 }
 .card-box-image{
     margin: 20px;
@@ -179,3 +179,100 @@ width:;
     background: rgb(209, 235, 223);
     transform: scale(1.1)
 }
+.the-vesion-of-future{
+    margin-top: 65px,5px;
+}
+.the-vesion-of-future-heading{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+padding: 10px;
+}
+.the-vesion-of-future-text{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+padding: 5px;
+}
+.card-box-the-vesion-of-bangladesh{
+    display: flex;
+    margin: 20px 10px;
+    gap: 20px;
+   
+   
+}
+.card-box-content>button{
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+}
+.card-box-one{
+    border-radius: 8px;
+
+    background: rgb(84, 144, 245);
+}
+
+.card-box-two{
+    border-radius: 8px;
+
+background: rgb(9, 161, 92);
+
+}
+.card-box-three{
+    border-radius: 8px;
+
+    background: rgb(255, 194, 57);
+}
+#Digital-Transformation{
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background: rgba(84, 144, 245, 0.2);
+    width: 33%;
+    transition: transform 0.3s ease;
+}
+#Green-Energy{
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background: rgb(198, 228, 214);
+    width: 33%;
+    transition: transform 0.3s ease;
+}
+#Modern-Infrastructure{
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+width: 33%;
+transition: transform 0.3s ease;
+}
+#Digital-Transformation:hover{
+    
+    background: whitesmoke;
+    transform: scale(1.1);
+    border: 1px dotted black;
+}
+#Green-Energy:hover{
+    background: whitesmoke;
+    transform: scale(1.1);
+    border: 1px dotted black;
+}
+#Modern-Infrastructure:hover{
+    background: whitesmoke;
+    transform: scale(1.1);
+    border: 1px dotted black;
+}
+.
