@@ -164,20 +164,24 @@ padding-left: 15px;
     margin: 20px;
 }
 .Sustainability:hover{
-  background: rgb(209, 235, 223);
+    background: rgb(248, 249, 197);
   transform: scale(1.1);
 }
  .Empowerment:hover{
+    
+    
     background: rgb(209, 235, 223);
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
  .Innovation:hover{
     background: rgb(209, 235, 223);
-    transform: scale(1.1)
+    transform: scale(1.1);
+    
 }
 .Infrastructure:hover{
-    background: rgb(209, 235, 223);
-    transform: scale(1.1)
+    background: rgb(248, 249, 197);
+    transform: scale(1.1);
+    
 }
 .the-vesion-of-future{
     margin-top: 65px,5px;
@@ -264,6 +268,7 @@ transition: transform 0.3s ease;
     background: whitesmoke;
     transform: scale(1.1);
     border: 1px dotted black;
+    
 }
 #Green-Energy:hover{
     background: whitesmoke;
@@ -614,3 +619,11 @@ select {
     #background{
         background: rgb(198, 228, 214);
     }
+    button:hover{
+    
+        background: rgb(218, 224, 128);
+        
+        
+        
+    }
+ 
