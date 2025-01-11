@@ -323,7 +323,7 @@ background: rgb(255, 255, 255);
 padding-top: 30px;
 transition: transform 0.3s ease;
 }
-input[type="number"]{
+input[type="text"]{
     width:1000px;
     height: 55px;
     border-radius: 2px;
