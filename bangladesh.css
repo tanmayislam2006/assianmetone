@@ -522,6 +522,7 @@ background: url(./Image/quote-bg.png);
 background-color: rgb(255, 255, 255);
 background-position: left top;
 background-repeat: no-repeat;
+background-position-x: 5px;
 
 margin: 60px 5px;
 
