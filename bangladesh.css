@@ -39,6 +39,13 @@ cursor: pointer;
     letter-spacing: 0%;
     text-align: left;
 }
+@media  screen and(max-width:576px) {
+    nav{
+        /* justify-content: space-evenly; */
+        margin: auto;
+    }
+    
+}
 .bangladesh{
     height: 520.60px;
     width: 1230px;
@@ -107,6 +114,30 @@ font-weight: 600;
 line-height: 18px;
 letter-spacing: 0%;
 text-align: left;
+}
+@media screen and (max-width:576px) {
+    .bangladesh{
+        margin: 10px;
+        height: auto;
+        padding: 10px;
+        width: 360px;
+    }
+    .bangladesh-section{
+        flex-direction: column-reverse;
+        margin: auto;
+        width: auto;
+    }
+    .title-text-content{
+        width: 250px;
+        font-size: 38px;
+    }
+    .image-content img{
+        width: 320px;
+    }
+body{
+    width: 400px;
+    margin: 0 auto;
+}
 }
 /* next sextion */
 /* pillar of bangladesh
@@ -182,6 +213,19 @@ padding-left: 15px;
     background: rgb(248, 249, 197);
     transform: scale(1.1);
     
+}
+@media screen and (max-width:576px) {
+  .pillar-of-bangladesh-headiing{
+        font-size: 28px;
+        width: 100%;
+    }
+.cad-box-pillar-of-bangladesh{
+   flex-direction: column;
+} 
+.Infrastructure, .Innovation, .Empowerment, .Sustainability{
+    width: 100%;
+    
+}  
 }
 .the-vesion-of-future{
     margin-top: 65px,5px;
@@ -280,6 +324,15 @@ transition: transform 0.3s ease;
     transform: scale(1.1);
     border: 1px dotted black;
 }
+@media screen and (max-width:576px) {
+  .card-box-the-vesion-of-bangladesh{
+    flex-direction: column;
+  }
+  #Modern-Infrastructure, #Green-Energy, #Digital-Transformation{
+    width: 100%;
+  }
+  
+}
 .donate{
     margin: 60px 5px;
 }
@@ -356,6 +409,20 @@ text-align: center;
     transform: scale(1.1);
     border: 1px solid black;
 }
+@media screen and (max-width:576px) {
+.donate-card-box{
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+} 
+input[type="text"]{
+    width: 100%;
+}
+.donate-card{
+    width: 80%;
+}  
+}
 body{
     /* border: 2px solid ; */
 }
@@ -390,18 +457,15 @@ border: none;
 .subscribe-text{
     padding: 60px;
 }
-
-/* .subscribe-text>p{
-color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: center;
-width: 595px;
-} */
- 
+@media  screen and (max-width:576Px) {
+    #resize-font{
+        font-size: 20px;
+    }
+#resize-text-font{
+    font-size: 12px;
+}
+    
+}
 /* section recent news */
 .recent-news{
 margin: 60px,5px;
@@ -483,6 +547,23 @@ letter-spacing: 0%;
 text-align: left;
 padding: 5px;
 }
+@media  screen and (max-width:576Px) {
+.recent-news-card{
+    flex-direction: column;
+    width: 100%;
+}
+.recent-news-text{
+ width: calc(100% - 2px);
+
+   
+}
+.image-control>img {
+width: 390px;
+
+
+}
+}
+
 footer{
     background: rgb(255, 255, 255);
 }
@@ -625,4 +706,13 @@ select {
         background: rgb(218, 224, 128);
   
     }
- 
+    @media  screen and (max-width:576Px) {
+        .footer-div> hr{
+            width:100%;   
+    }
+
+}
+body{
+    max-width: 1240px;
+    margin: 0 auto;
+}
